@@ -152,6 +152,58 @@
   border-radius: 8px;
 }
 
+.amenities-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.amenities-gallery-item {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.amenities-gallery-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.amenities-gallery-item h5 {
+  padding: 14px 16px;
+  font-size: 16px;
+  margin: 0;
+  color: var(--heading-color);
+}
+
+.amenities-featured {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.amenities-featured img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .amenities-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .amenities-gallery-item img {
+    height: 180px;
+  }
+}
+
+
 @media (max-width: 767px) {
   .brand-logo-text {
     font-size: 22px;

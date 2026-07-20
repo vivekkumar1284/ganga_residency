@@ -67,8 +67,8 @@ AMENITIES_SLIDER = """                                    <div class="choose-sli
                                     </div>"""
 
 PROJECT_SLIDER = """                        <div class="row justify-content-center project-image-grid g-4" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="col-md-6"><img src="assets/images/project/location1.jpeg" alt="Ganga Residency project location"></div>
-                            <div class="col-md-6"><img src="assets/images/project/location2.jpeg" alt="Ganga Residency project location"></div>
+                            <div class="col-md-6"><img src="assets/images/location1.jpeg" alt="Ganga Residency project location"></div>
+                            <div class="col-md-6"><img src="assets/images/location2.jpeg" alt="Ganga Residency project location"></div>
                         </div>"""
 
 
@@ -122,15 +122,15 @@ def swap_project_images(html: str) -> str:
         count=1,
     )
     replacements = {
-        "assets/images/home-one/hero/hero-bg1.jpg": "assets/images/project/location1.jpeg",
-        "assets/images/home-one/hero/hero-bg2.jpg": "assets/images/project/location2.jpeg",
-        "assets/images/home-one/hero/hero-bg3.jpg": "assets/images/project/location1.jpeg",
-        "assets/images/innerpage/about/about-img1.jpg": "assets/images/project/location1.jpeg",
-        "assets/images/innerpage/about/about-img2.jpg": "assets/images/project/location2.jpeg",
-        "assets/images/innerpage/gallery/choose-img1.jpg": "assets/images/project/location2.jpeg",
-        "assets/images/innerpage/gallery/work-img1.jpg": "assets/images/project/location1.jpeg",
-        "assets/images/home-three/gallery/counter-img2.jpg": "assets/images/project/location2.jpeg",
-        "assets/images/innerpage/bg/page-bg.jpg": "assets/images/project/location1.jpeg",
+        "assets/images/home-one/hero/hero-bg1.jpg": "assets/images/location1.jpeg",
+        "assets/images/home-one/hero/hero-bg2.jpg": "assets/images/location2.jpeg",
+        "assets/images/home-one/hero/hero-bg3.jpg": "assets/images/location1.jpeg",
+        "assets/images/innerpage/about/about-img1.jpg": "assets/images/location1.jpeg",
+        "assets/images/innerpage/about/about-img2.jpg": "assets/images/location2.jpeg",
+        "assets/images/innerpage/gallery/choose-img1.jpg": "assets/images/location2.jpeg",
+        "assets/images/innerpage/gallery/work-img1.jpg": "assets/images/location1.jpeg",
+        "assets/images/home-three/gallery/counter-img2.jpg": "assets/images/location2.jpeg",
+        "assets/images/innerpage/bg/page-bg.jpg": "assets/images/location1.jpeg",
     }
     for old, new in replacements.items():
         html = html.replace(old, new)
