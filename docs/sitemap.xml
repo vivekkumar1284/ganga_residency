@@ -1,50 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Site Pages -->
   <url>
     <loc>https://gangaresidency.co.in/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gangaresidency.co.in/overview.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gangaresidency.co.in/pricing.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gangaresidency.co.in/location.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gangaresidency.co.in/highlights.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gangaresidency.co.in/amenities.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://gangaresidency.co.in/master-plan.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gangaresidency.co.in/gallery.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -54,6 +55,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
+
+  <!-- Individual Blog Posts -->
   <url>
     <loc>https://gangaresidency.co.in/blog/ganga-residency-vs-city-living.html</loc>
     <lastmod>2026-07-28</lastmod>
@@ -73,9 +76,69 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://gangaresidency.co.in/contact.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <loc>https://gangaresidency.co.in/blog/documents-to-check-before-booking-pre-launch-plot.html</loc>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-amenities-clubhouse-badminton-library.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-location-and-distance-guide.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-pre-launch-offer-price-vs-launch-price.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/ganga-residency-vs-city-living.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/living-near-garh-ganga-daily-life-festivals-community.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/location-guide-distance-from-garh-ganga-railway-station-ganga-expressway.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/top-reasons-to-invest-in-residential-plots-garhmukteshwar.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/vastu-friendly-plot-layouts.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/why-invest-plots-ganga-residency.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://gangaresidency.co.in/blog/why-invest-plots-near-ganga-expressway.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 </urlset>
