@@ -1,6 +1,6 @@
 # Ganga Residency Website
 
-Starter website for **Ganga Residency** — a 15 acre plotted township in Garhmukteshwar.
+Starter website for **Ganga Residency** — a 15 acre plotted township in garhmukteshwar.
 
 **Live domain:** [www.gangaresidency.co.in](https://www.gangaresidency.co.in)
 

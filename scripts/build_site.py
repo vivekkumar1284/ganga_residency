@@ -171,8 +171,8 @@ def remove_sections(html: str) -> str:
 
 def update_content(html: str) -> str:
     html = html.replace(
-        "Government-approved residential and commercial plots at Ganga Residency, Garhmukteshwar. Plot sizes 100–150 Sq.Yd. Starting at ₹20,000 per Sq.Yd.",
-        "Ganga Residency is a 15 acre plotted township in Garhmukteshwar with 100–150 Sq.Yd. plots. Effective pre-launch price ₹16,500 per Sq.Yd.",
+        "Government-approved residential and commercial plots at Ganga Residency, garhmukteshwar. Plot sizes 100–150 Sq.Yd. Starting at ₹20,000 per Sq.Yd.",
+        "Ganga Residency is a 15 acre plotted township in garhmukteshwar with 100–150 Sq.Yd. plots. Effective pre-launch price ₹16,500 per Sq.Yd.",
     )
     html = html.replace(
         "Key Features of Ganga Residency Residential Plots:",
@@ -187,12 +187,12 @@ def update_content(html: str) -> str:
         "Choose from 100 and 150 Sq.Yd. plot sizes in a 15 acre plotted township.",
     )
     html = html.replace(
-        "Welcome to Ganga Residency, an exclusive residential project offering premium villa plots for sale in the serene town of Garhmukteshwar.",
-        "Welcome to Ganga Residency, an upcoming 15 acre plotted township offering premium residential plots in the serene town of Garhmukteshwar.",
+        "Welcome to Ganga Residency, an exclusive residential project offering premium villa plots for sale in the serene town of garhmukteshwar.",
+        "Welcome to Ganga Residency, an upcoming 15 acre plotted township offering premium residential plots in the serene town of garhmukteshwar.",
     )
     html = html.replace(
-        "Welcome to Ganga Residency, an exclusive residential project offering premium villa\n                                        plots for sale in the serene town of Garhmukteshwar.",
-        "Welcome to Ganga Residency, an upcoming 15 acre plotted township offering premium residential plots in the serene town of Garhmukteshwar.",
+        "Welcome to Ganga Residency, an exclusive residential project offering premium villa\n                                        plots for sale in the serene town of garhmukteshwar.",
+        "Welcome to Ganga Residency, an upcoming 15 acre plotted township offering premium residential plots in the serene town of garhmukteshwar.",
     )
     html = html.replace("Ganga Residency Master Plans", "Ganga Residency Master Plan")
     html = html.replace(
@@ -241,7 +241,7 @@ def update_content(html: str) -> str:
         ("Green Parks and Kids Play-Area", "Indoor games room, gym, library & restaurant"),
         ("Jogging Track/Yoga/Meditation Area", "Society internal roads: 25 ft & 30 ft wide"),
         ("2-Tier CCTV Security System", "1 tree with every plot (in front)"),
-        ("Conveniently located near gas agencies, petrol pumps and police chowki", "Prime location in Garhmukteshwar with excellent connectivity"),
+        ("Conveniently located near gas agencies, petrol pumps and police chowki", "Prime location in garhmukteshwar with excellent connectivity"),
     ]
     for old, new in highlights:
         html = html.replace(f"<p>{old}</p>", f"<p>{new}</p>", 1)
